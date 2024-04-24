@@ -18,10 +18,7 @@ async function main() {
         slug: "pizza-calabresa",
         description:
           "mussarela, calabresa, cebola, oregano, molho e tomate.",
-        imageUrls: [
-          "https://images.pexels.com/photos/3682837/pexels-photo-3682837.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        ],
+        imageUrl: "https://images.pexels.com/photos/3682837/pexels-photo-3682837.jpeg?auto=compress&cs=tinysrgb&w=600",
         basePrice: 60,
         categoryId: pizzasCategory.id,
         discountPercentage: 10, // 10% discount
@@ -31,10 +28,7 @@ async function main() {
         slug: "pizza-frango-com-catupiry",
         description:
           "mussarela, frango, catupiry, cebola, oregano, molho e tomate.",
-        imageUrls: [
-          "https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          "https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        ],
+        imageUrl:  "https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         basePrice: 70,
         categoryId: pizzasCategory.id,
         discountPercentage: 7, // 10% discount
@@ -59,10 +53,7 @@ async function main() {
         slug: "xburger",
         description:
           "Pão, carne, queijo, presunto, cebola, alface e tomate.",
-        imageUrls: [
-          "https://images.pexels.com/photos/3139343/pexels-photo-3139343.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "https://images.pexels.com/photos/3139343/pexels-photo-3139343.jpeg?auto=compress&cs=tinysrgb&w=600",
-        ],
+        imageUrl: "https://images.pexels.com/photos/3139343/pexels-photo-3139343.jpeg?auto=compress&cs=tinysrgb&w=600",
         basePrice: 16,
         categoryId: hamburgersCategory.id,
         discountPercentage: 10, // 10% discount
@@ -88,9 +79,7 @@ async function main() {
         slug: "super-combo-hamburguer-bata-frita-coca-cola",
         description:
           "2 Hamburguer, 2 bata frita, coca-cola 1l.",
-        imageUrls: [
-          "https://images.pexels.com/photos/551991/pexels-photo-551991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        ],
+        imageUrl: "https://images.pexels.com/photos/551991/pexels-photo-551991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         basePrice: 42,
         categoryId: combosCategory.id,
         discountPercentage: 10, // 10% discount
@@ -116,10 +105,7 @@ async function main() {
         slug: "coca-cola-250ml",
         description:
           "Coca-cola.",
-        imageUrls: [
-          "https://images.pexels.com/photos/17650224/pexels-photo-17650224/free-photo-of-lata-refrigerante-coca-cola-fundo-branco.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "https://images.pexels.com/photos/17650224/pexels-photo-17650224/free-photo-of-lata-refrigerante-coca-cola-fundo-branco.jpeg?auto=compress&cs=tinysrgb&w=600",
-          ],
+        imageUrl:"https://images.pexels.com/photos/17650224/pexels-photo-17650224/free-photo-of-lata-refrigerante-coca-cola-fundo-branco.jpeg?auto=compress&cs=tinysrgb&w=600",
         basePrice: 7,
         categoryId: bebidasCategory.id,
         discountPercentage: 10, // 10% discount
